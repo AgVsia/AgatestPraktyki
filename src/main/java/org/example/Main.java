@@ -5,8 +5,13 @@ public class Main {
         //Zadanie1 Wyświetl na wyjściu napis "Hello World"
         System.out.println("Hello World");
 
-        //todo Zadanie2 Wyswietl swoje imie i nazwisko w osobnych wierszach
+        //Zadanie2 Wyswietl swoje imie i nazwisko w osobnych wierszach
+        System.out.println("Agnieszka");
+        System.out.println("Gatak");
 
-        //todo Zadanie3 Wyswietl swoja date urodzenia
+        //Zadanie3 Wyswietl swoja date urodzenia
+        System.out.println("14.10.1988");
+
     }
+
 }
