@@ -1,0 +1,20 @@
+I
+- stworzenie projektu w Intellij
+- wstęp do gita: wypchnięcie projektu na zdalne repo, commitowanie pierwszych zmian, zaciągnięcie zmian ze zdalnego repo
+- java: prosty program wyświetlający tekst, poznanie komentarzy //
+
+II
+- czym jest zmienna
+- typy danych w javie: int, long, short, byte, char, float, double, boolean
+- operatory: +, -, *, /, ++, --, ==, >=, <=, ||, &&
+- Łańcuchy
+- klasa String i metody jakie dostarcza
+
+
+Co jeszcze będzie:
+- wejście i wyjście
+- instrukcje warunkowe
+- pętle
+- Klasy i metody
+- operacje na plikach
+- wektory
