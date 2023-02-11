@@ -1,0 +1,18 @@
+
+1. Wykonaj zadania korzystając z metod dostępnych w klasie String
+1.1. Wyświetl pierwszą literę wyrażenia "Ala ma kota."
+1.2. Wyświetl ostatni znak wyrażenia "Ala ma kota."
+1.3. Wyświetl długość wyrażenia "Ala ma kota."
+1.4. Wyświetl wyrażenie "Ala ma kota." wielkimi literami
+1.5. Wyświetl wyrażenie "Ala ma kota." małymi literami
+1.6. Wyświetl pod jakim indeksem znajduje się litera "m" w wyrażeniu "Ala ma kota."
+1.7. Zamień wyrażenie "Ala ma kota." na "Ala ma koty."
+1.8. Zamień wszystkie litery "a" na "b" w wyrażeniu "Ala ma kota."
+1.9. Z wyrażenia "Ala ma kota." wyłuskaj wyraz "ma"
+1.10. Do wyrażenia "Ala ma kota." dodaj wyrażenie "A kot ma Alę" tak by wyświetliły się w jedenj linii.
+
+2. Utwórz tablicę znaków zawierającą napis "Dzień dobry" i wyświetl ten napis w konsoli
+3. Utwórz tablicę znaków zawierającą słowo "Dom". Wyświetl znaki zawarte w tablicy w odwrtonej kolejności.
+4. Stworz zmienna number1 i nadaj jej wartosc 10. Stworz zmienna number2 i nadaj jej wartosc 20. Stworz zmienna number3 do ktorej przypiszesz sume number1 i number2. Wyswietl zmienna number3
+5. Stwórz zmienna "word" zawierającą słowo "programowanie". Stwórz zmienną logiczną "isEquals10" która bedzie przechowywała odpowiedź czy długość zmiennej word jest równa 10.  (Zrób to na dwa sposoby: w jednym wykorzystaj metodę z klasy String, a w drugim użyj operatora porównania)
+6.

@@ -15,6 +15,9 @@ Co jeszcze będzie:
 - wejście i wyjście
 - instrukcje warunkowe
 - pętle
-- Klasy i metody
+- Klasy i metody, modyfikatory dostepu, zasieg zmiennych
 - operacje na plikach
 - wektory
+- zasymulujemy konflikt w gicie
+- wzorzec projektowy POM
+
