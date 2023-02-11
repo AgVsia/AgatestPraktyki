@@ -1,5 +1,5 @@
 
-1. Wykonaj zadania korzystając z metod dostępnych w klasie String
+1. (String) Wykonaj zadania korzystając z metod dostępnych w klasie String
 1.1. Wyświetl pierwszą literę wyrażenia "Ala ma kota."
 1.2. Wyświetl ostatni znak wyrażenia "Ala ma kota."
 1.3. Wyświetl długość wyrażenia "Ala ma kota."
@@ -10,9 +10,22 @@
 1.8. Zamień wszystkie litery "a" na "b" w wyrażeniu "Ala ma kota."
 1.9. Z wyrażenia "Ala ma kota." wyłuskaj wyraz "ma"
 1.10. Do wyrażenia "Ala ma kota." dodaj wyrażenie "A kot ma Alę" tak by wyświetliły się w jedenj linii.
+1.11. Sprawdź czy wyrażenie "Ala ma kota." zaczyna się na "Ala". (Odpowiedniej metody szukaj w dokumentacji wyszukując "startsWith")
+1.12. Sprawdź czy wyrażenie "Ala ma kota." kończy się na "kota". (Odpowiedniej metody szukaj w dokumentacji wyszukując "endsWith")
+1.13. Sprawdź czy wyrażenie "Ala ma kota." zawiera w sobie słowo "ma" (Odpowiedniej metody szukaj w dokumentacji wyszukując "contains")
+1.14. Sprawdź czy wyrażenie "Ala ma kota." jest równe wyrażeniu "Ala ma psa." (Odpowiedniej metody szukaj w dokumentacji wyszukując "equals")
+1.15. Stwórz zmienna "word" zawierającą słowo "programowanie". Stwórz zmienną logiczną (boolean) "isEquals10" która bedzie przechowywała odpowiedź (true/false) czy długość zmiennej word jest równa 10.  (Zrób to na dwa sposoby: w jednym wykorzystaj metodę z klasy String, a w drugim użyj operatora porównania)
 
-2. Utwórz tablicę znaków zawierającą napis "Dzień dobry" i wyświetl ten napis w konsoli
-3. Utwórz tablicę znaków zawierającą słowo "Dom". Wyświetl znaki zawarte w tablicy w odwrtonej kolejności.
-4. Stworz zmienna number1 i nadaj jej wartosc 10. Stworz zmienna number2 i nadaj jej wartosc 20. Stworz zmienna number3 do ktorej przypiszesz sume number1 i number2. Wyswietl zmienna number3
-5. Stwórz zmienna "word" zawierającą słowo "programowanie". Stwórz zmienną logiczną "isEquals10" która bedzie przechowywała odpowiedź czy długość zmiennej word jest równa 10.  (Zrób to na dwa sposoby: w jednym wykorzystaj metodę z klasy String, a w drugim użyj operatora porównania)
-6.
+2. (int)
+2.1. Stwórz zmienną x i nadaj jej wartość 10. Wyświetl wartość zmiennej x na standardowym wyjściu.
+2.2. Stworz zmienną y i nadaj jej wartość 2. Wyświetl wartość zmiennej y na wyjściu.
+2.3. Stwórz zmienną sum i umieść w niej sumę zmiennej x i y. Wyświetl wartość zmiennej z na wyjściu.
+2.3. Stwórz zmienną difference i umieść w niej różnice wartości x i y. Wyświetl wartość zmiennej roznica na wyjściu.
+
+3. (double)
+3.1. Stwórz stałą inflationOfDecember i nadaj jej wartość 16.6, na standardowym wyjściu wyświetl "Inflation in December was 16.6%!" (użyj słowa kluczowego final)
+3.2. Stwórz stałą inflationOfNovember i nadaj jej wartość 17.4, na standardowym wyjściu wyświetl rożnicę inflationOfNovember i inflationOfDecember.
+
+To na później:
+4. Utwórz tablicę znaków zawierającą napis "Dzień dobry" i wyświetl ten napis w konsoli
+5. Utwórz tablicę znaków zawierającą słowo "Dom". Wyświetl znaki zawarte w tablicy w odwrtonej kolejności.
