@@ -25,7 +25,17 @@
 3. (double)
 3.1. Stwórz stałą inflationOfDecember i nadaj jej wartość 16.6, na standardowym wyjściu wyświetl "Inflation in December was 16.6%!" (użyj słowa kluczowego final)
 3.2. Stwórz stałą inflationOfNovember i nadaj jej wartość 17.4, na standardowym wyjściu wyświetl rożnicę inflationOfNovember i inflationOfDecember.
+3.3. Dany masz kwadrat o boku 10 cm. Stwórz zmienna do przechowywania wartości boku kwadratu, a następnie stworz zmienne do przechowywania pola i obwodu tego kwadratu.
 
-To na później:
-4. Utwórz tablicę znaków zawierającą napis "Dzień dobry" i wyświetl ten napis w konsoli
-5. Utwórz tablicę znaków zawierającą słowo "Dom". Wyświetl znaki zawarte w tablicy w odwrtonej kolejności.
+4. (tablice)
+4.1. Utwórz tablicę znaków zawierającą napis "Dzień dobry" i wyświetl ten napis w konsoli
+4.2. Utwórz tablicę znaków zawierającą słowo "Dom". Wyświetl znaki zawarte w tablicy w odwrtonej kolejności.
+
+5. (wejście)
+5.1. Napisz program wypisujący na standardowym wyjściu następujący napis: „Ten napis zawiera różne dziwne znaczki: ; . , “” // \ \ $ & % ()”.
+5.2. Napisz program, który wczytuje ze standardowego wejścia liczbę całkowitą i wypisuje ją na standardowym wyjściu.
+5.3. Napisz program, który wczytuje ze standardowego wejścia liczbę zmiennoprzecinkową i wypisuje ją na standardowym wyjściu
+5.4. Napisz program, który wczytuje ze standardowego wejścia trzy liczby całkowite, a następnie wypisuje je w oddzielnych liniach na standardowym wyjściu.
+5.5. Napisz program, który wczytuje ze standardowego wejścia liczbę całkowitą i wypisuje na standardowym wyjściu liczbę o jeden większą.
+5.6. Napisz program, który wczytuje ze standardowego wejścia trzy liczby całkowite i wypisuje na standardowym wyjściu ich średnią arytmetyczną.
+5.7. Napisz program, który wczytuje ze standardowego wejścia dwie liczby całkowite i wypisuje na standardowym wyjściu ich: sumę, różnicę, średnią, iloczyn i iloraz.

@@ -60,7 +60,7 @@ public class Main {
         boolean equalOfPhrase = phrase.equalsIgnoreCase("Ala ma psa");
         System.out.println("The phrase Ala ma kota equals Ala ma psa:" + " " + equalOfPhrase);
 
-        //Stwórz zmienna "word" zawierającą słowo "programowanie". Stwórz zmienną logiczną (boolean) "isEquals10" która bedzie przechowywała odpowiedź (true/false) czy długość zmiennej word jest równa 10.  (Zrób to na dwa sposoby: w jednym wykorzystaj metodę z klasy String, a w drugim użyj operatora porównania)
+        //FIXME Stwórz zmienna "word" zawierającą słowo "programowanie". Stwórz zmienną logiczną (boolean) "isEquals10" która bedzie przechowywała odpowiedź (true/false) czy długość zmiennej word jest równa 10.  (Zrób to na dwa sposoby: w jednym wykorzystaj metodę z klasy String, a w drugim użyj operatora porównania)
         String word = "Programowanie";
         String substringOfWord = word.substring(0,13);
         System.out.println(substringOfWord);
@@ -68,29 +68,29 @@ public class Main {
         boolean equalOfWord = word.equals("programowanie");
         System.out.println("The word is equals 10:" + " " + equalOfWord);
 
-        //Stwórz zmienną x i nadaj jej wartość 10. Wyświetl wartość zmiennej x na standardowym wyjściu.
+        //FIXME Stwórz zmienną x i nadaj jej wartość 10. Wyświetl wartość zmiennej x na standardowym wyjściu.
         String valueOfX = "10";
         System.out.println("x=" + valueOfX);
 
-        //Stworz zmienną y i nadaj jej wartość 2. Wyświetl wartość zmiennej y na wyjściu.
+        //FIXME Stworz zmienną y i nadaj jej wartość 2. Wyświetl wartość zmiennej y na wyjściu.
         String valueOfY = "2";
         System.out.println("y=" + valueOfY);
         
-        //Stwórz zmienną sum i umieść w niej sumę zmiennej x i y. Wyświetl wartość zmiennej z na wyjściu.
+        //FIXME Stwórz zmienną sum i umieść w niej sumę zmiennej x i y. Wyświetl wartość zmiennej z na wyjściu.
         int sumOfValue = 10+2;
         System.out.println(sumOfValue);
 
-        //Stwórz zmienną difference i umieść w niej różnice wartości x i y. Wyświetl wartość zmiennej roznica na wyjściu
+        //FIXME Stwórz zmienną difference i umieść w niej różnice wartości x i y. Wyświetl wartość zmiennej roznica na wyjściu
         int differenceOfValue = 10-2;
         System.out.println(differenceOfValue);
 
-        // Stwórz stałą inflationOnDecember i nadaj jej wartość 16.6, na standardowym wyjściu wyświetl "Inflation in December was 16.6%!" (użyj słowa kluczowego final)
+        //FIXME Stwórz stałą inflationOnDecember i nadaj jej wartość 16.6, na standardowym wyjściu wyświetl "Inflation in December was 16.6%!" (użyj słowa kluczowego final)
 
         final String name ="inflationOnDecember";
         double valueOfInflation = 16.6;
         System.out.println("Inflation in December was" + " "+ valueOfInflation + "%");
 
-        //Stwórz stałą inflationOfNovember i nadaj jej wartość 17.4, na standardowym wyjściu wyświetl rożnicę inflationOfNovember i inflationOfDecember.
+        //FIXME Stwórz stałą inflationOfNovember i nadaj jej wartość 17.4, na standardowym wyjściu wyświetl rożnicę inflationOfNovember i inflationOfDecember.
 
         final String name2 = "inflationOfNovember";
         double valueOfInflation2 = 17.4;

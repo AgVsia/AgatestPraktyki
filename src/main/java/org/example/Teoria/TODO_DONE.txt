@@ -10,6 +10,11 @@ II
 - Łańcuchy
 - klasa String i metody jakie dostarcza
 
+III
+- tablice
+- wejście
+- znaki specjalne
+- null
 
 Co jeszcze będzie:
 - wejście i wyjście
@@ -19,5 +24,9 @@ Co jeszcze będzie:
 - operacje na plikach
 - wektory
 - zasymulujemy konflikt w gicie
+- co to maven
+- selenium
 - wzorzec projektowy POM
+- jak odpalić test w Jenkinsie
+- StringBuilder a konkatenacja (to taki smaczek)
 
