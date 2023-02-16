@@ -11,18 +11,19 @@ II
 - klasa String i metody jakie dostarcza
 
 III
-- tablice
 - wejście
 - znaki specjalne
-- null
+
+IV
+- tablice
+- instrukcje warunkowe
 
 Co jeszcze będzie:
-- wejście i wyjście
 - instrukcje warunkowe
 - pętle
 - Klasy i metody, modyfikatory dostepu, zasieg zmiennych
 - operacje na plikach
-- wektory
+- struktury
 - zasymulujemy konflikt w gicie
 - co to maven
 - selenium

@@ -46,3 +46,13 @@
 5.10. Napisz program, który wczytuje ze standardowego wejścia jakiś wyraz i wypisuje go na wyjściu wielkimi literami.
 5.11. Napisz program, który wczytuje ze standardowego wejścia jakiś wyraz i wypisuje na wyjściu z ilu znaków składa się ten wyraz.
 
+6. (instrukcje warunkowe)
+6.1. Napisz program, który wczyta ze standardowego wejścia liczbę całkowitą. Jeśli wczytana liczba jest równa 100 program wypisze na standardowe wyjście napis "TO STO!", jeśli to inna liczba program wypisze "TO NIE STO"
+6.2. Napisz program, który wczytuje ze standardowego wejścia dwie liczby całkowite i wypisuje na standardowym wyjściu większą z nich (w przypadku gdy podane liczby są równe, program powinien wypisać napis "Liczby są równe")
+6.3. Napisz program, który wczytuje ze standardowego wejścia trzy liczby całkowite i wypisuje na standardowym wyjściu największą z ich wartości (pamiętaj o przypadku gdy wszystkie podane liczby lub dwie z nich są równe).
+6.4. Napisz program obliczający pole kwadratu na podstawie wymiarów podanych przez użytkownika.
+6.5. Napisz program obliczający pole trójkąta na podstawie wymiarów podanych przez użytkownika. Użytkownik powinien mieć możliwość podania długości podstawy i wysokości lub wszystkich boków trójkąta.
+6.6. Napisz program, który w zależności od wyboru użytkownika wczytuje ze standardowego wejścia wymiary: kwadratu, prostokąta lub trójkąta i wypisuje na standardowym wyjściu pole figury o wczytanych wymiarach.
+6.7. Napisz program kalkulator, który wykonuje wybraną przez użytkownika operacją arytmetyczną na dwóch wczytanych liczbach. Program powinien wczytywać dane ze standardowego wejścia i wypisywać wynik na standardowym wyjściu.
+
+7. (pętle)
