@@ -62,40 +62,46 @@ public class Main {
 
         //FIXME Stwórz zmienna "word" zawierającą słowo "programowanie". Stwórz zmienną logiczną (boolean) "isEquals10" która bedzie przechowywała odpowiedź (true/false) czy długość zmiennej word jest równa 10.  (Zrób to na dwa sposoby: w jednym wykorzystaj metodę z klasy String, a w drugim użyj operatora porównania)
         String word = "Programowanie";
-        String substringOfWord = word.substring(0,13);
+        String substringOfWord = word.substring(0, 13);
         System.out.println(substringOfWord);
 
         boolean equalOfWord = word.equals("programowanie");
         System.out.println("The word is equals 10:" + " " + equalOfWord);
 
         //FIXME Stwórz zmienną x i nadaj jej wartość 10. Wyświetl wartość zmiennej x na standardowym wyjściu.
-        String valueOfX = "10";
+        int valueOfX = 10;
         System.out.println("x=" + valueOfX);
 
         //FIXME Stworz zmienną y i nadaj jej wartość 2. Wyświetl wartość zmiennej y na wyjściu.
-        String valueOfY = "2";
+        int valueOfY = 2;
         System.out.println("y=" + valueOfY);
-        
+
         //FIXME Stwórz zmienną sum i umieść w niej sumę zmiennej x i y. Wyświetl wartość zmiennej z na wyjściu.
-        int sumOfValue = 10+2;
+        int sumOfValue = valueOfX + valueOfY;
         System.out.println(sumOfValue);
 
         //FIXME Stwórz zmienną difference i umieść w niej różnice wartości x i y. Wyświetl wartość zmiennej roznica na wyjściu
-        int differenceOfValue = 10-2;
+        int differenceOfValue = valueOfX - valueOfY;
         System.out.println(differenceOfValue);
 
         //FIXME Stwórz stałą inflationOnDecember i nadaj jej wartość 16.6, na standardowym wyjściu wyświetl "Inflation in December was 16.6%!" (użyj słowa kluczowego final)
 
-        final String name ="inflationOnDecember";
-        double valueOfInflation = 16.6;
-        System.out.println("Inflation in December was" + " "+ valueOfInflation + "%");
+        final double valueOfInflation = 16.6;
+        System.out.println("Inflation in December was" + " " + valueOfInflation + "%");
 
         //FIXME Stwórz stałą inflationOfNovember i nadaj jej wartość 17.4, na standardowym wyjściu wyświetl rożnicę inflationOfNovember i inflationOfDecember.
 
-        final String name2 = "inflationOfNovember";
-        double valueOfInflation2 = 17.4;
+        final double valueOfInflation2 = 17.4;
         double differenceBetweenValueOfInflation = valueOfInflation2 - valueOfInflation;
-        System.out.println("The difference between inflation of November and inflation of December is"+ " " +  differenceBetweenValueOfInflation + "%");
+        System.out.println("The difference between inflation of November and inflation of December is" + " " + differenceBetweenValueOfInflation + "%");
 
-        }
+        //Dany masz kwadrat o boku 10 cm. Stwórz zmienna do przechowywania wartości boku kwadratu, a następnie stworz zmienne do przechowywania pola i obwodu tego kwadratu.
+
+        int sideOfTheSquare = 10;
+        int squareArea = sideOfTheSquare * sideOfTheSquare;
+        int squarePerimeter = 4 * sideOfTheSquare;
+        System.out.println("Pole kwadratu jest równe "+squareArea + "cm\u00B2");
+        System.out.println("Obwód kwadratu jest równy "+ squarePerimeter + "cm");
     }
+
+}
