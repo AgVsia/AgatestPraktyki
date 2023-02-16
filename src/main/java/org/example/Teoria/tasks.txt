@@ -30,12 +30,19 @@
 4. (tablice)
 4.1. Utwórz tablicę znaków zawierającą napis "Dzień dobry" i wyświetl ten napis w konsoli
 4.2. Utwórz tablicę znaków zawierającą słowo "Dom". Wyświetl znaki zawarte w tablicy w odwrtonej kolejności.
+4.3. Utwórz tablicę zawierającą wszystkie cyfry 0-9
+4.4. Utwórz tablicę stringów zawierającą twoje imię i nazwisko
 
 5. (wejście)
 5.1. Napisz program wypisujący na standardowym wyjściu następujący napis: „Ten napis zawiera różne dziwne znaczki: ; . , “” // \ \ $ & % ()”.
 5.2. Napisz program, który wczytuje ze standardowego wejścia liczbę całkowitą i wypisuje ją na standardowym wyjściu.
-5.3. Napisz program, który wczytuje ze standardowego wejścia liczbę zmiennoprzecinkową i wypisuje ją na standardowym wyjściu
-5.4. Napisz program, który wczytuje ze standardowego wejścia trzy liczby całkowite, a następnie wypisuje je w oddzielnych liniach na standardowym wyjściu.
-5.5. Napisz program, który wczytuje ze standardowego wejścia liczbę całkowitą i wypisuje na standardowym wyjściu liczbę o jeden większą.
-5.6. Napisz program, który wczytuje ze standardowego wejścia trzy liczby całkowite i wypisuje na standardowym wyjściu ich średnią arytmetyczną.
-5.7. Napisz program, który wczytuje ze standardowego wejścia dwie liczby całkowite i wypisuje na standardowym wyjściu ich: sumę, różnicę, średnią, iloczyn i iloraz.
+5.3. Napisz program, który wczytuje ze standardowego wejścia twoją datę urodzenia, a następnie wypisuje ją na wyjściu.
+5.4. Napisz program, który wczytuje ze standardowego wejścia liczbę zmiennoprzecinkową i wypisuje ją na standardowym wyjściu
+5.5. Napisz program, który wczytuje ze standardowego wejścia trzy liczby całkowite, a następnie wypisuje je w oddzielnych liniach na standardowym wyjściu.
+5.6. Napisz program, który wczytuje ze standardowego wejścia liczbę całkowitą i wypisuje na standardowym wyjściu liczbę o jeden większą.
+5.7. Napisz program, który wczytuje ze standardowego wejścia trzy liczby całkowite i wypisuje na standardowym wyjściu ich średnią arytmetyczną.
+5.8. Napisz program, który wczytuje ze standardowego wejścia dwie liczby całkowite i wypisuje na standardowym wyjściu ich: sumę, różnicę, średnią, iloczyn i iloraz.
+5.9. Napisz program wyświetlający na ekranie pierwszą i ostatnią literę dowolnego wyrazu wprowadzonego z klawiatury
+5.10. Napisz program, który wczytuje ze standardowego wejścia jakiś wyraz i wypisuje go na wyjściu wielkimi literami.
+5.11. Napisz program, który wczytuje ze standardowego wejścia jakiś wyraz i wypisuje na wyjściu z ilu znaków składa się ten wyraz.
+
