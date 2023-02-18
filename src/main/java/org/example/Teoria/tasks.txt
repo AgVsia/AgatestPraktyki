@@ -56,3 +56,5 @@
 6.7. Napisz program kalkulator, który wykonuje wybraną przez użytkownika operacją arytmetyczną na dwóch wczytanych liczbach. Program powinien wczytywać dane ze standardowego wejścia i wypisywać wynik na standardowym wyjściu.
 
 7. (pętle)
+7.1. Napisz program, który wypisze na standardowym wyjściu twoje imię 10 razy, w dziesięciu osobnych wierszach. (Użyj pętli)
+7.1. Napisz program, który wypisze na standardowym wyjściu twoje imie 10 razy, w jednej linii oddzielone spacjami. (Użyj pętli)

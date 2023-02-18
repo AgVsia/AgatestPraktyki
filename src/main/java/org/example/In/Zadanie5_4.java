@@ -1,4 +1,4 @@
-package org.example;
+package org.example.In;
 
 import java.util.Locale;
 import java.util.Scanner;

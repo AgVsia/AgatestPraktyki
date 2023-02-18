@@ -1,4 +1,4 @@
-package org.example;
+package org.example.In;
 
 import java.math.BigInteger;
 import java.util.Scanner;
