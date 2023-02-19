@@ -23,7 +23,13 @@ V
 
 VI
 - tablice
-- metody
+- funkcje
+- operacje na plikach
+
+VII Programowanie obiektowe
+-
+
+
 
 Co jeszcze będzie:
 - instrukcje warunkowe
@@ -32,9 +38,11 @@ Co jeszcze będzie:
 - operacje na plikach
 - struktury
 - zasymulujemy konflikt w gicie
+- stworzymy sobie po gałązce w gicie
 - co to maven
 - selenium
 - wzorzec projektowy POM
 - jak odpalić test w Jenkinsie
+- SOLID, KISS, DRY, YAGNI - zasady tworzenia kodu
 - StringBuilder a konkatenacja (to taki smaczek)
 

@@ -56,7 +56,20 @@
 6.7. Napisz program kalkulator, który wykonuje wybraną przez użytkownika operacją arytmetyczną na dwóch wczytanych liczbach. Program powinien wczytywać dane ze standardowego wejścia i wypisywać wynik na standardowym wyjściu.
 
 7. (pętle)
-7.1. Napisz program, który wypisze na standardowym wyjściu twoje imię 10 razy, w dziesięciu osobnych wierszach. (Użyj pętli)
-7.1. Napisz program, który wypisze na standardowym wyjściu twoje imie 10 razy, w jednej linii oddzielone spacjami. (Użyj pętli)
+7.1. Napisz program, który wypisze na standardowym wyjściu twoje imię 10 razy, w dziesięciu osobnych wierszach. (Użyj pętli for, while i do...while)
+7.2. Napisz program, który wypisze na standardowym wyjściu twoje imie 10 razy, w jednej linii oddzielone spacjami. (Użyj pętli for, while i do...while)
+7.3. Napisz program wyświetlający 10 początkowych liczb naturalnych zaczynając od 1. (Użyj pętli for, while i do...while)
+7.4. Napisz program wyświetlający liczby naturalne parzyste od 100 do 2.
+7.5. Napisz program, który dla wczytanej z klawiatury liczby n wypisze na ekranie liczby 1,4,9,...,n^2. (Dla 2 wypisze: 1, 4) (Dla: 4 wypisze: 1, 4, 9, 16)
 
 8. (switch)
+8.1. Napisz program, który dla wczytanej przez usera cyfry, wyświetli ją słownie. Użyj instrukcji switch.
+8.2. Napisz program, który wczyta od usera dwie liczby, a następnie w zależności od wyboru usera wypiszę: sumę, różnicę, iloraz, iloczyn.
+8.3. Napisz program, który wczytuje od usera kwotę w złotych, a następnie przelicza ją na taka walutę, jaką wybierze użytkownik: funty, dolary, euro.
+8.4. Program dnia pewnego szkolenia wygląda następująco:
+     8-11 wykłady,
+     12-13 dyskusje,
+     14 obiad,
+     15-18 prelekcje,
+     19 kolacja.
+     Program mam za zadanie pobrać godzinę i wyświetlić informacje o wszystkich punktach dnia, które jeszcze będą począwszy od danej godziny.
