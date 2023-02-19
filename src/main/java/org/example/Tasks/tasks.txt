@@ -27,7 +27,7 @@
 3.2. Stwórz stałą inflationOfNovember i nadaj jej wartość 17.4, na standardowym wyjściu wyświetl rożnicę inflationOfNovember i inflationOfDecember.
 3.3. Dany masz kwadrat o boku 10 cm. Stwórz zmienna do przechowywania wartości boku kwadratu, a następnie stworz zmienne do przechowywania pola i obwodu tego kwadratu.
 
-4. (tablice)
+4. (tablice - wektory)
 4.1. Utwórz tablicę znaków zawierającą napis "Dzień dobry" i wyświetl ten napis w konsoli
 4.2. Utwórz tablicę znaków zawierającą słowo "Dom". Wyświetl znaki zawarte w tablicy w odwrtonej kolejności.
 4.3. Utwórz tablicę zawierającą wszystkie cyfry 0-9
@@ -58,3 +58,5 @@
 7. (pętle)
 7.1. Napisz program, który wypisze na standardowym wyjściu twoje imię 10 razy, w dziesięciu osobnych wierszach. (Użyj pętli)
 7.1. Napisz program, który wypisze na standardowym wyjściu twoje imie 10 razy, w jednej linii oddzielone spacjami. (Użyj pętli)
+
+8. (switch)

@@ -15,8 +15,15 @@ III
 - znaki specjalne
 
 IV
+- if else
+
+V
+- switch
+- pętle
+
+VI
 - tablice
-- instrukcje warunkowe
+- metody
 
 Co jeszcze będzie:
 - instrukcje warunkowe

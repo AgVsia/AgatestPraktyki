@@ -1,4 +1,4 @@
-package org.example.In;
+package org.example.StandardInput;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class Zadanie5_9 {
         System.out.println("Wpisz wyraz: ");
         String phrase = in.nextLine();
         char firstLetterOfPhrase = phrase.charAt(0);
-        char lastLetterOfPhrase = phrase.charAt(8);
+        char lastLetterOfPhrase = phrase.charAt(8); //FIXME potrzebujesz info o długości całej frazy, wtedy będziesz wiedziała pod jakim indeksem jest ostatnia litera (pamiętaj jak numerujemy indeksy)
         System.out.println("Pierwsza i ostatnia litera wyrazu:" + firstLetterOfPhrase + "," + lastLetterOfPhrase);
     }
 }

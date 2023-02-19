@@ -1,4 +1,4 @@
-package org.example.In;
+package org.example.StandardInput;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class Zadanie5_8 {
         int arithmeticMeanOfInteger= valueOfFirstInteger+ valueOfSecondInteger/2;
         int subtractOfInteger = valueOfFirstInteger - valueOfSecondInteger;
         int multiplyOfInteger = valueOfFirstInteger * valueOfSecondInteger;
-        int divideOfInteger = valueOfFirstInteger / valueOfSecondInteger;
+        int divideOfInteger = valueOfFirstInteger / valueOfSecondInteger; //tu bym dała typ double
         System.out.print("\nSuma liczb: " + sumOfInteger + "\nŚrednia z liczb: " + arithmeticMeanOfInteger+ "\nRóżnica z liczb: " +  subtractOfInteger + "\nIloczyn z liczb: " +  multiplyOfInteger + "\nIloraz z liczb: "+ divideOfInteger);
     }
 }

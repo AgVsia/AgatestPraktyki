@@ -1,4 +1,4 @@
-package org.example.In;
+package org.example.StandardInput;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class Zadanie5_11 {
     //Napisz program, który wczytuje ze standardowego wejścia jakiś wyraz i wypisuje na wyjściu z ilu znaków składa się ten wyraz.
         System.out.println("Wpisz wyraz: ");
         String phrase = in.nextLine();
-        int lengthOfPhrase= phrase.length();
+        int lengthOfPhrase = phrase.length();
         System.out.println("Długość wyrazu: " + lengthOfPhrase);
 
     }
