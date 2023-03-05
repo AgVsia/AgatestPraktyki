@@ -10,7 +10,7 @@ public class Zadanie6_1 {
         int valueOfInteger = in.nextInt();
         if(valueOfInteger == 100){
             System.out.println("TO STO!");
-        }else if(valueOfInteger > 100 || valueOfInteger < 100){
+        }else if(valueOfInteger > 100 || valueOfInteger < 100){ //niepotrzebny jest tutaj if else - może być sam else
             System.out.println("TO NIE STO");
         }
     }

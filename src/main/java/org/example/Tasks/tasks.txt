@@ -28,9 +28,9 @@
 3.3. Dany masz kwadrat o boku 10 cm. Stwórz zmienna do przechowywania wartości boku kwadratu, a następnie stworz zmienne do przechowywania pola i obwodu tego kwadratu.
 
 4. (tablice - wektory)
-4.1. Utwórz tablicę znaków zawierającą napis "Dzień dobry" i wyświetl ten napis w konsoli
-4.2. Utwórz tablicę znaków zawierającą słowo "Dom". Wyświetl znaki zawarte w tablicy w odwrtonej kolejności.
-4.3. Utwórz tablicę zawierającą wszystkie cyfry 0-9
+4.1. Utwórz tablicę znaków zawierającą napis "Dzień dobry" i wyświetl ten napis w konsoli. (zrób to na dwa sposoby, ręcznie i pętlą)
+4.2. Utwórz tablicę znaków zawierającą słowo "Dom". Wyświetl znaki zawarte w tablicy w odwrtonej kolejności. (zrób to na dwa sposoby, ręcznie i pętlą)
+4.3. Utwórz tablicę zawierającą wszystkie cyfry 0-9 (zrób to na dwa sposoby, ręcznie i pętlą)
 4.4. Utwórz tablicę stringów zawierającą twoje imię i nazwisko
 
 5. (wejście)
@@ -54,6 +54,7 @@
 6.5. Napisz program obliczający pole trójkąta na podstawie wymiarów podanych przez użytkownika. Użytkownik powinien mieć możliwość podania długości podstawy i wysokości lub wszystkich boków trójkąta.
 6.6. Napisz program, który w zależności od wyboru użytkownika wczytuje ze standardowego wejścia wymiary: kwadratu, prostokąta lub trójkąta i wypisuje na standardowym wyjściu pole figury o wczytanych wymiarach.
 6.7. Napisz program kalkulator, który wykonuje wybraną przez użytkownika operacją arytmetyczną na dwóch wczytanych liczbach. Program powinien wczytywać dane ze standardowego wejścia i wypisywać wynik na standardowym wyjściu.
++ zadania z pdf'a
 
 7. (pętle)
 7.1. Napisz program, który wypisze na standardowym wyjściu twoje imię 10 razy, w dziesięciu osobnych wierszach. (Użyj pętli for, while i do...while)
@@ -61,6 +62,8 @@
 7.3. Napisz program wyświetlający 10 początkowych liczb naturalnych zaczynając od 1. (Użyj pętli for, while i do...while)
 7.4. Napisz program wyświetlający liczby naturalne parzyste od 100 do 2.
 7.5. Napisz program, który dla wczytanej z klawiatury liczby n wypisze na ekranie liczby 1,4,9,...,n^2. (Dla 2 wypisze: 1, 4) (Dla: 4 wypisze: 1, 4, 9, 16)
+7.6. Napisz program, który pobierze od użytkownika liczbę naturalną n, następnie pobierze n liczb całkowitych i wyświetli w konsoli liczbę najmniejszą i największą wpisaną przez użytkownika.
+*7.7. Napisz program wyświetlający na wyjściu kolejne 100 liczb parzystych od zadanej liczby (aby sprawdzić czy liczba jest parzysta, sprawdza się czy reszta z dzielenia przez 2 jest równa 0; operację modulo, czyli resztę z dzielenia zapisujesmy za pomocą znaku %)
 
 8. (switch)
 8.1. Napisz program, który dla wczytanej przez usera cyfry, wyświetli ją słownie. Użyj instrukcji switch.
@@ -73,3 +76,4 @@
      15-18 prelekcje,
      19 kolacja.
      Program mam za zadanie pobrać godzinę i wyświetlić informacje o wszystkich punktach dnia, które jeszcze będą począwszy od danej godziny.
++ zadania z pdf'a

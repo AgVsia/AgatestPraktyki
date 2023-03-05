@@ -19,11 +19,15 @@ IV
 
 V
 - switch
-- pętle
+- pętle (for, while, do...while)
+- break, continue
 
 VI
 - tablice
+- czym jest null
+- pętla for each
 - funkcje
+
 - operacje na plikach
 
 VII Programowanie obiektowe
@@ -37,6 +41,7 @@ Co jeszcze będzie:
 - Klasy i metody, modyfikatory dostepu, zasieg zmiennych
 - operacje na plikach
 - struktury
+- kolekcje
 - zasymulujemy konflikt w gicie
 - stworzymy sobie po gałązce w gicie
 - co to maven
