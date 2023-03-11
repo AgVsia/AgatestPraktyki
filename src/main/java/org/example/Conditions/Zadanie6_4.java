@@ -10,10 +10,10 @@ public class Zadanie6_4 {
         int sideOfSquare = in.nextInt();
         int squareArea = sideOfSquare * sideOfSquare;
         if (sideOfSquare == 0) {
-            System.out.println("Wartość boku kwadratu równa jest 0: " + sideOfSquare + "\nPole kwadratu: " + squareArea);
-        }else if (sideOfSquare < 0){
-                System.out.println("Wartość boku mniejsza niż 0: " + sideOfSquare +  "\nPole kwadratu: " + squareArea);
-        }else if (sideOfSquare > 0){
+            System.out.println("Wartość boku nie może być równa 0");
+        } else if (sideOfSquare < 0) {
+            System.out.println("Wartość boku nie może mniejsza niż 0:");
+        } else {
             System.out.println("Wartość boku większa niż 0: " + sideOfSquare + "\nPole kwadratu: " + squareArea);
         }
     }
