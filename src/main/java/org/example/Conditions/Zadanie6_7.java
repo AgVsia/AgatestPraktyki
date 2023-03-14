@@ -14,44 +14,31 @@ public class Zadanie6_7 {
         System.out.println("4. Dzielenie");
         int selectOption = in.nextInt();
         System.out.println("Wpisz pierwsza liczbę: ");
-        double valueOfFirstValue =  in.nextDouble();
+        double valueOfFirstValue = in.nextDouble();
         System.out.println("Wpisz drugą liczbę: ");
-        double valueOfSecondValue =  in.nextDouble();
-        int denominator = in.nextInt();
-        int valueOfDenominator = in.nextInt();
+        double valueOfSecondValue = in.nextDouble();
 
-        if (denominator == 0) {
-            System.out.println("Jeśli liczba równa jest zero w mianowniku: Nie można dzielić przez zero!!");
-        } else if (selectOption == 1) {
-            System.out.println("Wpisz pierwszą liczbę: ");
-            double firstNumber = in.nextDouble();
-            System.out.println("Wpisz drugą liczbę: ");
-            double secondNumber = in.nextDouble();
-            double addTwoNumbers = firstNumber + secondNumber;
+
+        if (selectOption == 1) {
+            double addTwoNumbers = valueOfFirstValue + valueOfSecondValue;
             System.out.println("Suma liczb równa jest: " + addTwoNumbers);
 
         } else if (selectOption == 2) {
-            System.out.println("Wpisz pierwszą liczbę: ");
-            double firstNumber = in.nextDouble();
-            System.out.println("Wpisz drugą liczbę: ");
-            double secondNumber = in.nextDouble();
-            double substructTwoNumbers = firstNumber - secondNumber;
+            double substructTwoNumbers = valueOfFirstValue - valueOfSecondValue;
             System.out.println("Różnica dwóch liczb równa jest: " + substructTwoNumbers);
 
         } else if (selectOption == 3) {
-            System.out.println("Wpisz pierwszą liczbę: ");
-            double firstNumber = in.nextDouble();
-            System.out.println("Wpisz drugą liczbę: ");
-            double secondNumber = in.nextDouble();
-            double multiplyTwoNumbers = firstNumber * secondNumber;
+            double multiplyTwoNumbers = valueOfFirstValue * valueOfSecondValue;
             System.out.println(" Iloczyn dwóch liczb równy jest: " + multiplyTwoNumbers);
 
-        } else if (selectOption == 4 && valueOfDenominator != 0) {
-            System.out.println("Wpisz pierwszą liczbę: ");
-            double firstNumber = in.nextDouble();
-            System.out.println("Wpisz drugą liczbę: ");
-            double divideTwoNumbers = firstNumber / valueOfDenominator;
-            System.out.println(" Iloraz dwóch liczb równy jest: " + divideTwoNumbers);
+        } else if (selectOption == 4) {
+            boolean denominator = valueOfSecondValue != 0;
+            if (denominator) {
+                double divideTwoNumbers = valueOfFirstValue / valueOfSecondValue;
+                System.out.println(" Iloraz dwóch liczb równy jest: " + divideTwoNumbers);
+            } else {
+                System.out.println("Jeśli liczba równa jest zero w mianowniku: Nie można dzielić przez zero!!");
+            }
         }
     }
 }
