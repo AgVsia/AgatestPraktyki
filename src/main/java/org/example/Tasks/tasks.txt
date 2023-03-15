@@ -60,10 +60,13 @@
 7.1. Napisz program, który wypisze na standardowym wyjściu twoje imię 10 razy, w dziesięciu osobnych wierszach. (Użyj pętli for, while i do...while)
 7.2. Napisz program, który wypisze na standardowym wyjściu twoje imie 10 razy, w jednej linii oddzielone spacjami. (Użyj pętli for, while i do...while)
 7.3. Napisz program wyświetlający 10 początkowych liczb naturalnych zaczynając od 1. (Użyj pętli for, while i do...while)
-7.4. Napisz program wyświetlający liczby naturalne parzyste od 100 do 2.
-7.5. Napisz program, który dla wczytanej z klawiatury liczby n wypisze na ekranie liczby 1,4,9,...,n^2. (Dla 2 wypisze: 1, 4) (Dla: 4 wypisze: 1, 4, 9, 16)
-7.6. Napisz program, który pobierze od użytkownika liczbę naturalną n, następnie pobierze n liczb całkowitych i wyświetli w konsoli liczbę najmniejszą i największą wpisaną przez użytkownika.
-*7.7. Napisz program wyświetlający na wyjściu kolejne 100 liczb parzystych od zadanej liczby (aby sprawdzić czy liczba jest parzysta, sprawdza się czy reszta z dzielenia przez 2 jest równa 0; operację modulo, czyli resztę z dzielenia zapisujesmy za pomocą znaku %)
+7.4. Napisz program wyświetlający liczby naturalne parzyste od 2 do 100.
+7.5. Napisz program wyświetlający liczby naturalne parzyste od 100 do 2.
+7.6. Napisz program, który dla wczytanej z klawiatury liczby n wypisze na ekranie liczby 1,4,9,...,n^2. (Dla 2 wypisze: 1, 4) (Dla: 4 wypisze: 1, 4, 9, 16)
+7.7. Napisz program wyświetlający na wyjściu kolejne 100 liczb parzystych od wczytanej od usera liczby
+7.8. Napisz program, który pobiera od usera dodatnią liczbę całkowitą n i wypisuje na standardowym wyjściu wszystkie dodatnie dzielniki liczby n.
+*7.9. Napisz program, który pobierze od użytkownika liczbę naturalną n, następnie pobierze n liczb całkowitych i wyświetli w konsoli liczbę najmniejszą i największą wpisaną przez użytkownika.
++ pdf
 
 8. (switch)
 8.1. Napisz program, który dla wczytanej przez usera cyfry, wyświetli ją słownie. Użyj instrukcji switch.
@@ -77,3 +80,5 @@
      19 kolacja.
      Program mam za zadanie pobrać godzinę i wyświetlić informacje o wszystkich punktach dnia, które jeszcze będą począwszy od danej godziny.
 + zadania z pdf'a
+
+9. Funkcje
