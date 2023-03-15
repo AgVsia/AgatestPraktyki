@@ -11,17 +11,16 @@ public class Zadanie2_3pdf {
         int firstNum = in.nextInt();
         System.out.println("Wpisz drugą liczbę: ");
         int secondNum = in.nextInt();
-        System.out.println("wpisz trzecią liczbę: ");
+        System.out.println("Wpisz trzecią liczbę: ");
         int thirdNum = in.nextInt();
-        if (firstNum>secondNum|| firstNum>thirdNum){
-            System.out.println("Największa liczba: " + firstNum);
-        }else if(secondNum>firstNum||secondNum>thirdNum){
-            System.out.println("Największa liczba: " + secondNum);
-        }else if(thirdNum>firstNum|| thirdNum>secondNum){
-            System.out.println("Największa liczba: " + thirdNum);
+        if(firstNum >= secondNum && firstNum >= thirdNum){
+            System.out.println(firstNum);
+        } else if (secondNum >= firstNum && secondNum >= thirdNum) {
+            System.out.println(secondNum);
+        } else if (thirdNum >= firstNum && thirdNum >= secondNum) {
+            System.out.println(thirdNum);
+        }
         }
     }
-
-}
 // Aga to zadanie dokończę :)
 
