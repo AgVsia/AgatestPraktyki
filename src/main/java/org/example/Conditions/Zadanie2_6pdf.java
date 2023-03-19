@@ -1,7 +1,7 @@
 package org.example.Conditions;
 
 import java.util.Scanner;
-
+// do pętlii
 public class Zadanie2_6pdf {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

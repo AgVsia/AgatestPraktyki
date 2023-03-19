@@ -65,7 +65,7 @@
 7.6. Napisz program, który dla wczytanej z klawiatury liczby n wypisze na ekranie liczby 1,4,9,...,n^2. (Dla 2 wypisze: 1, 4) (Dla: 4 wypisze: 1, 4, 9, 16)
 7.7. Napisz program wyświetlający na wyjściu kolejne 100 liczb parzystych od wczytanej od usera liczby
 7.8. Napisz program, który pobiera od usera dodatnią liczbę całkowitą n i wypisuje na standardowym wyjściu wszystkie dodatnie dzielniki liczby n.
-*7.9. Napisz program, który pobierze od użytkownika liczbę naturalną n, następnie pobierze n liczb całkowitych i wyświetli w konsoli liczbę najmniejszą i największą wpisaną przez użytkownika.
+7.9. Napisz program, który pobierze od użytkownika liczbę naturalną n, następnie pobierze n liczb całkowitych i wyświetli w konsoli liczbę najmniejszą i największą wpisaną przez użytkownika.
 + pdf
 
 8. (switch)

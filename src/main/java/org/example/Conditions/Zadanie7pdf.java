@@ -23,3 +23,4 @@ public class Zadanie7pdf {
         }
     }
 }
+// oddzielnie !! sprawdz warunki
