@@ -12,11 +12,11 @@ public class Zadanie9 {
         System.out.println(" Podaj ile zadeklarowałeś liczb: ");
         int numMin = 0;
         int numMaX = 0;
-        for (int i = 1; i <= num; i++) {
-            if(numMax>i){
+        for (int i = 1; i <= num; i++){
+            //if(numMax>i){
 
-            }
-        }
     }
-}
+    }
+   }
+//}
 
