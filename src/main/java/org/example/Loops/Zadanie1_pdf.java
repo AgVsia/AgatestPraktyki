@@ -14,15 +14,15 @@ public class Zadanie1_pdf {
         Scanner in = new Scanner(System.in);
         System.out.println("Podaj liczbę całkowitą: ");
         int num = in.nextInt();
-        int score = 1;
+        int score =1;
         for (int i = 1; i <= num; i++) {
             if (num < 0) {
                 System.out.println("Błąd.Liczba ujemna!!!");
             } else if (num == 0) {
                 System.out.println("0!=" + i);
             } else if (num > 0) {
-                score *= i;
-                System.out.println("n!" + i + " = " + score);
+               score*=i;
+                System.out.println("n! = ");
             }
         }
 
