@@ -14,17 +14,46 @@ public class Zadanie1_pdf {
         Scanner in = new Scanner(System.in);
         System.out.println("Podaj liczbę całkowitą: ");
         int num = in.nextInt();
-        int score =1;
-        for (int i = 1; i <= num; i++) {
+        int score = num * (num - 1);
+        for (int i = 0; i <= 0; i++) {
             if (num < 0) {
-                System.out.println("Błąd.Liczba ujemna!!!");
+                System.out.println("Błąd. Liczba ujemna!!!!");
             } else if (num == 0) {
-                System.out.println("0!=" + i);
-            } else if (num > 0) {
-               score*=i;
-                System.out.println("n! = ");
+                System.out.println("0!=" + score);
+            } else {
+                System.out.println("n!=" + score);
             }
+
         }
+        System.out.println("Podaj liczbę całkowitą: ");
+        int num1 = in.nextInt();
+        int score1 = num1 * (num1 - 1);
+        int i = 0;
+        while (i <= 0) {
+            if (num1 < 0) {
+                System.out.println("Błąd. Liczba ujemna!!!!");
+            } else if (num1 == 0) {
+                System.out.println("0!=" + score);
+            } else {
+                System.out.println("n!=" + score);
+            }
+            i++;
+        }
+        System.out.println("Podaj liczbę całkowitą: ");
+        int num2 = in.nextInt();
+        int score2 = num2 * (num2 - 1);
+        int j = 0;
+        do {
+            if (num1 < 0) {
+                System.out.println("Błąd. Liczba ujemna!!!!");
+            } else if (num1 == 0) {
+                System.out.println("0!=" + score);
+            } else {
+                System.out.println("n!=" + score);
+
+            }
+            j++;
+        } while (j <= 0);
 
     }
 }
