@@ -12,44 +12,20 @@ public class Zadanie2_pdf {
 
         Scanner in = new Scanner(System.in);
         System.out.println("Podaj login: ");
-        String Login = in.nextLine();
+        String login = in.nextLine();
         System.out.println("Podaj hasło:");
-        String Password = in.nextLine();
-        String Log = "janek123";
-        String Pass = "qwerty";
-        for (int i = 0; i <= 0; i++) {
-            if (Login == Log && Password == Pass) {
-            }
-            System.out.println("Hasło poprawne!!!!:)");
+        String password = in.nextLine();
+        String log = "janek123";
+        String pass = "qwerty";
+        for (; !login.equals(log) && !password.equals(pass); ) {
+            System.out.println("Podaj login:  " + login + " " + log);
+            login = in.nextLine();
+            System.out.println("Podaj hasło: " + password + " " + pass);
+            password = in.nextLine();
 
         }
-        System.out.println("Podaj login: ");
-        String Login1 = in.nextLine();
-        System.out.println("Podaj hasło:");
-        String Password1 = in.nextLine();
-        String Log1 = "janek123";
-        String Pass1 = "qwerty";
-        int i = 0;
-        while(i<=0){
-            if (Login == Log && Password == Pass) {
-            }
-            System.out.println("Hasło poprawne!!!!:)");
-            i++;
-        }
-        System.out.println("Podaj login: ");
-        String Login2 = in.nextLine();
-        System.out.println("Podaj hasło:");
-        String Password2 = in.nextLine();
-        String Log2 = "janek123";
-        String Pass2 = "qwerty";
-        int j=0;
-        do{
-            if (Login == Log && Password == Pass) {
-            }
-
-            System.out.println("Hasło poprawne!!!!:)");
-            j++;
-        }while(j<=0);
+        System.out.println("Hasło poprawne!!!!:)");
     }
 
 }
+

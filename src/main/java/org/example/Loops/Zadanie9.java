@@ -22,44 +22,50 @@ public class Zadanie9 {
             if (numMax <= amount) {
                 numMax = amount;
             }
-            System.out.println(numMin);
-            System.out.println(numMax);
         }
+        System.out.println("Nasze min: " + numMin);
+        System.out.println("Nasze max: " + numMax);
+
         System.out.println("Podaj liczbę dodatnią: ");
         int num1 = in.nextInt();
         System.out.println(" Podaj zadeklarowane liczby: ");
         int numMin1 = 0;
         int numMax1 = 0;
-        int amount1 = 0;
+        int amount1;
         int i = 1;
-        while(i <= num){
+        while (i <= num1) {
+            amount1 = in.nextInt();
             if (numMin1 >= amount1 || numMin1 == 0) {
                 numMin1 = amount1;
             }
             if (numMax1 <= amount1) {
                 numMax1 = amount1;
             }
-            System.out.println(numMin1);
-            System.out.println(numMax1);
+
+            i++;
         }
+        System.out.println("nasze min: " + numMin1);
+        System.out.println("nasze max: " + numMax1);
+
         System.out.println("Podaj liczbę dodatnią: ");
         int num2 = in.nextInt();
         System.out.println(" Podaj zadeklarowane liczby: ");
         int numMin2 = 0;
         int numMax2 = 0;
-        int amount2 = 0;
+        int amount2;
         int j = 1;
-        do{
+        do {
+            amount2 = in.nextInt();
             if (numMin2 >= amount2 || numMin2 == 0) {
                 numMin2 = amount2;
             }
             if (numMax2 <= amount2) {
                 numMax2 = amount2;
             }
-            System.out.println(numMin2);
-            System.out.println(numMax2);
             j++;
-        }while (j <= num);
+        } while (j <= num2);
+        System.out.println("Nasze min: " + numMin2);
+        System.out.println("Naszme max: " + numMax2);
     }
 
 }
