@@ -16,15 +16,6 @@ public class Zadanie_4 {
         System.out.println("Podaj godzinę");
         int hour = in.nextInt();
 
-        if(hour>=8&& hour<=19) {
-            System.out.println("Prawidłowy przedział godzinowy");
-
-        }else {
-            System.out.println("Nieprawidłowa wartość");
-
-            System.out.println(("Wybierz opcje: 1,2,3,4,5"));
-
-        }
 
     }
 }
