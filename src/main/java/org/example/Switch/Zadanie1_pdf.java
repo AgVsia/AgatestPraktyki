@@ -17,6 +17,25 @@ public class Zadanie1_pdf {
         System.out.println("Wpisz liczbę całkowitą: ");
         int score = in.nextInt();
 
+        switch (score) {
+            case 10:
+                System.out.println("Ocena \'A\'");
+                break;
+            case 9:
+                System.out.println("Ocena \'B\'");
+                break;
+            case 8:
+                System.out.println("Ocena \'C\'");
+                break;
+            case 6, 7:
+                System.out.println("Ocena \'D\'");
+                break;
+            case 5, 4, 3, 2, 1, 0:
+                System.out.println("Ocena \'E\'");
+                break;
+            default:
+                System.out.println("Nieprawidłowa wartość");
 
+        }
     }
 }

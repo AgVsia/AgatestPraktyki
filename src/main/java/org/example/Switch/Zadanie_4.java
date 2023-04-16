@@ -16,6 +16,24 @@ public class Zadanie_4 {
         System.out.println("Podaj godzinę");
         int hour = in.nextInt();
 
-
+        switch (hour) {
+            case 8, 9, 10, 11:
+                System.out.println("Wykłady,dyskusje,obiad,prelekcje,kolacja");
+                break;
+            case 12, 13:
+                System.out.println("Dyskusje,obiad,prelekcje,kolacja");
+                break;
+            case 14:
+                System.out.println("Obiad,prelekcje,kolacja");
+                break;
+            case 15, 16, 17, 18:
+                System.out.println("Prelekcje,kolacja");
+                break;
+            case 19:
+                System.out.println("Kolacja");
+                break;
+            default:
+                System.out.println("Nieprawidłowa godzina");
+        }
     }
 }

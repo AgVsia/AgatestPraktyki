@@ -15,39 +15,31 @@ public class Zadanie_2 {
         System.out.println(("Wybierz działanie: 1.dodawanie,2.odejmowanie,3.mnożenie,4.dzielenie"));
         int choice = in.nextInt();
 
-        double addNum = firstNum + secondNum;
-        double substructNum = firstNum - secondNum;
-        double multiplyNum = firstNum * secondNum;
-        double divideNum = firstNum / secondNum;
 
-
-        if (choice == 4) {
-            boolean denominator = secondNum == 0;
-            divideNum = firstNum / secondNum;
-            System.out.println("Nie dziel przez zero");
-        }
-
-            switch (choice) {
-                case 1:
-                    System.out.println("Wybrano 1");
-                    System.out.println(addNum);
+        switch (choice) {
+            case 1:
+                System.out.println("Wybrano 1");
+                System.out.println(firstNum + secondNum);
+                break;
+            case 2:
+                System.out.println("Wybrano 2");
+                System.out.println(firstNum - secondNum);
+                break;
+            case 3:
+                System.out.println("Wybrano 3");
+                System.out.println(firstNum * secondNum);
+                break;
+            case 4:
+                System.out.println("Wybrano 4");
+                if (secondNum == 0) {
+                    System.out.println("Nie dziel przez zero");
                     break;
-                case 2:
-                    System.out.println("Wybrano 2");
-                    System.out.println(substructNum);
-                    break;
-                case 3:
-                    System.out.println("Wybrano 3");
-                    System.out.println(multiplyNum);
-                    break;
-                case 4:
-                    System.out.println("Wybrano 4");
-
-                    System.out.println(divideNum);
-                    break;
-
-
-            }
+                }
+                System.out.println(firstNum / secondNum);
+                break;
+            default:
+                System.out.println("Nieprawidłowa wartość");
         }
     }
+}
 
