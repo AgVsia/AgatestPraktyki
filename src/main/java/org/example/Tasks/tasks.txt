@@ -81,4 +81,26 @@
      Program mam za zadanie pobrać godzinę i wyświetlić informacje o wszystkich punktach dnia, które jeszcze będą począwszy od danej godziny.
 + zadania z pdf'a
 
-9. Funkcje
+9. Metody/Funkcje
+9.1. Napisz funkcję helloWorld(), która wyświetli nam napis "Witaj świecie". Funkcja ma nic nie zwracać, ani nie przyjmować żadnych parametrów. Wywołaj tę funkcję.
+9.2. Zmodyfikuj funkcję z zadania 9.1 tak, aby zwracała napis "Witaj świecie", a nie go wyświetlała. Wywołaj tę funkcję tak aby na wyjściu pojawił nam się napis "Witaj świecie".
+9.3. Napisz funkcję sum(), która przyjmuje w parametrach dwie liczby i zwraca ich sumę.
+9.4. Napisz funkcję difference(), która przyjmuje w parametrach dwie liczby i zwraca ich różnicę.
+9.5. Napisz funkcję compare(), która w parametrach przyjmuje dwie liczby i zwraca większą z nich.
+9.6. Napisz funkcję, która przyjmuje w parametrach 3 liczby i zwraca największą z nich.
+9.7. Napisz funkcję, która przyjmuje w parametrach 3 liczby i zwraca ich średnią.
+9.8. Napisz funkcję, która przyjmuje w parametrze String'a i zwraca liczbę słów w tym String'u.
+9.9. Napisz funkcję, która przyjmuje w parametrze rok i sprawdza czy jest on przestępny. Zwraca true albo false.
+9.10. Napisz funkcję, która sprawdzi czy podane w parametrze hasło (String) spełnia poniższe zasady:
+- hasło musi mieć co najmniej 10 znaków
+- hasło musi zawierać co najmniej jedną liczbę
+- hasło musi zawierać znak specjalny: !, @, #, $, %, ^, &, *, ., (, lub )
+9.11 Napisz funkcję wyświetlającą dzisiejszą datę. Format: Środa Kwiecień 25, 2023 20:22
+9.12. Napisz funkcję max2, która zwraca większą z dwóch podanych, jako jej parametry liczb, następnie funkcję max3, zwracającą największą spośród trzech podanych liczb. Funkcja max3 ma do tego celu używać funkcji max2.
+9.13. Napisz funkcję, która otrzymuje dwa napisy i zwraca 1, jeśli są jednakowe, a w przeciwnym razie zwraca 0.
+9.14. Napisz funkcję, która dostaje jako argumenty: tablicę liczb całkowitych oraz jej rozmiar i zwraca jako wartość średnią arytmetyczną wartości elementów tablicy.
++ jak będziesz miała ochotę pdf ZadaniaDodatkowe :)
+
+
+10. Pliki
+10.1. Napisz funkcję, która otrzymuje jako argument napis, będący ścieżką do pliku i zwraca liczbę słów (ciągów znaków rozdzielonych białymi znakami) zawartych w pliku o podanej nazwie.
