@@ -28,17 +28,22 @@ VI
 - pętla for each
 - funkcje
 
-- operacje na plikach
+VII
+- funkcje
+
 
 VII Programowanie obiektowe
--
+- klasa, obiekt, referencja, kontruktory, gettery, settery, specyfikatory dostępu, this, przeciążanie, interfejs, klasa abstrakcyjna, pole/metoda statyczna, dziedziczenie, polimorfizm
+- czym jest null
+
+
+- operacje na plikach
 
 
 
 Co jeszcze będzie:
-- instrukcje warunkowe
-- pętle
-- Klasy i metody, modyfikatory dostepu, zasieg zmiennych
+- debugowanie
+- Klasy i metody, modyfikatory dostepu
 - operacje na plikach
 - struktury
 - kolekcje

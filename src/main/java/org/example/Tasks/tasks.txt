@@ -101,6 +101,9 @@
 9.14. Napisz funkcję, która dostaje jako argumenty: tablicę liczb całkowitych oraz jej rozmiar i zwraca jako wartość średnią arytmetyczną wartości elementów tablicy.
 + jak będziesz miała ochotę pdf ZadaniaDodatkowe :)
 
+10. Klasy i obiekty
+zadania w PDF'ie
 
-10. Pliki
-10.1. Napisz funkcję, która otrzymuje jako argument napis, będący ścieżką do pliku i zwraca liczbę słów (ciągów znaków rozdzielonych białymi znakami) zawartych w pliku o podanej nazwie.
+
+X. Pliki
+X.1. Napisz funkcję, która otrzymuje jako argument napis, będący ścieżką do pliku i zwraca liczbę słów (ciągów znaków rozdzielonych białymi znakami) zawartych w pliku o podanej nazwie.
