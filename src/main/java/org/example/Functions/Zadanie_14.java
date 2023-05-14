@@ -11,17 +11,17 @@ public class Zadanie_14 {
         numbers[1] = 4;
         numbers[2] = 8;
         numbers[3] = 6;
-        int averageOfNumbers= average(numbers);
+        int averageOfNumbers = average(numbers);
+        System.out.println("Średnia arytmetyczna" + averageOfNumbers);
         System.out.println("Rozmiar tablicy:" + numbers.length);
-        for (int i = 0; i < numbers.length; i++) {
-            System.out.println("Wartość numbers[" + i + "]=" + numbers[i]);
-            numbers[i] = i;
-
-        }
-        public static int average(int numbers){
-
-        }
     }
 
-
+    public static int average(int[] array) {
+        int sumOfNum=0;
+        for (int i = 0; i < array.length; i++) {
+            sumOfNum = sumOfNum + array[i];
+            System.out.println("Wartość numbers[" + i + "]=" + array[i]);
+        }
+        return sumOfNum/array.length;
+    }
 }

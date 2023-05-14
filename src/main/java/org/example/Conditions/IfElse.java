@@ -3,7 +3,7 @@ package org.example.Conditions;
 public class IfElse {
     public static void main(String[] args){
 
-        int BMI = 30;
+        int BMI = 20;
         if (BMI < 20) {
             System.out.println("Masz niedowagę!");
         } else if (BMI >= 20 && BMI <= 25) {
