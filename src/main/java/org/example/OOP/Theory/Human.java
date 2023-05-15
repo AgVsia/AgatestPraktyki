@@ -9,7 +9,20 @@ public class Human {
     private String lastName;
     private double height;
 
-    //konstruktory
+    //konstruktory - mają taką samą nazwę jak nazwa klasy, nie mają żadnego typu zwracanego, nawet void - służa do tworzenia/konstuowania obiektów (konstruktor wywołujemy za pomocą operatora new)
+    Human(String firstName, String lastName, int age, double height){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.height = height;
+    }
+
+    Human(String firstName, String lastName, int age){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+
+    }
 
     //metody (gettery i settery)
     public void setAge(int age){
