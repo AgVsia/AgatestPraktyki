@@ -12,6 +12,6 @@ public class PaymentCalculator {
     public double bruttoYearPayment(Employee employee) {
         double monthlySalaryWithTax = employee.getMonthlySalary() + (INCOME_RATE_TAX* employee.getMonthlySalary());
         double zusCost = ZUS_COST * 12;
-        return (monthlySalaryWithTax * 12) + ZUS_COST;
+        return (monthlySalaryWithTax * 12) + zusCost;
     }
 }
