@@ -29,4 +29,4 @@ public class Test {
         //tworzymy obiekt point3 z domyślnymi wartościami (0, 0), a następnie korzystamy z metod getX i getY na obiekcie point2, aby pobrać wartości x i y.
         // Następnie przekazujemy te wartości jako oddzielne argumenty do metody setXY obiektu point3.
     }
-}
+}   
