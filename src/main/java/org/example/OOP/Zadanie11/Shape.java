@@ -1,6 +1,6 @@
 package org.example.OOP.Zadanie11;
 
-    public class Shape {
+    public abstract class Shape {
     private String name;
 
     public Shape(String name) {
@@ -12,9 +12,7 @@ package org.example.OOP.Zadanie11;
 
     }
 
-    public double getArea() {
-        return 0;
-    }
+    public abstract double getArea();
 
     public double getPerimeter() {
         return 0;
