@@ -1,31 +1,38 @@
 package org.example.OOP.Zadanie11;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
     private double height;
     private double width;
-    public Rectangle(double height,double width){
+
+    public Rectangle(double height, double width) {
         super("Rectangle");
-        this.height=height;
-        this.width=width;
+        this.height = height;
+        this.width = width;
     }
-    public double getHeight(){
+
+    public double getHeight() {
         return height;
     }
-    public void setHeight(double height){
-        this.height=height;
+
+    public void setHeight(double height) {
+        this.height = height;
     }
-    public double getWeight(){
+
+    public double getWidth() {
         return width;
     }
-    public void setWeight(double weight){
-        this.width=width;
+
+    public void setWidth(double width) {
+        this.width = width;
     }
+
     @Override
-    public double getArea(){
-        return width*height;
+    public double getArea() {
+        return width * height;
     }
+
     @Override
-    public double getPerimeter(){
-        return 2* (width+ height);
+    public double getPerimeter() {
+        return 2 * (width + height);
     }
 }
